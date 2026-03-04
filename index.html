@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calc</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class='center' style="text-align: center;">
+        <h1 id="text">...</h1>
+        <input type="text" placeholder="" id="calc">
+        <br><br>
+         <div class="buttons">
+        <button onclick="calc.value+='('">(</button>
+        <button onclick="calc.value+=')'">)</button>
+        <button onclick="calc.value=''">C</button>
+        <button onclick="calc.value=calc.value.slice(0,-1)">CE</button>
+        <br>
+        <button onclick="calc.value+='7'">7</button>
+        <button onclick="calc.value+='8'">8</button>
+        <button onclick="calc.value+='9'">9</button>
+        <button onclick="calc.value+='/'">/</button>
+        <br>
+        <button onclick="calc.value+='4'">4</button>
+        <button onclick="calc.value+='5'">5</button>
+        <button onclick="calc.value+='6'">6</button>
+        <button onclick="calc.value+='*'">*</button>
+        <br>
+        <button onclick="calc.value+='1'">1</button>
+        <button onclick="calc.value+='2'">2</button>
+        <button onclick="calc.value+='3'">3</button>
+        <button onclick="calc.value+='-'">-</button>
+        <br>
+        <button onclick="calc.value+='0'">0</button>
+        <button onclick="calc.value+='.'">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="calc.value+='+'">+</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    color:white;
+    font-family: monospace;
+    background-color: black;
+}
+hr{
+    border: 1px dashed white;
+}
+.center{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform:
+        translateX(-50%)
+        translateY(-50%);
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    font-size:16px;
+
+}
+button{
+    border: 2px solid white;
+}
+input{
+    border: 2px solid white;
+    margin-bottom: 4px;
+}
+.buttons{
+    button{
+        margin: 4px;
+        width: 50px
+    }
+    .special{
+        color:black;
+        background-color: white;
+    }
+    
+}   
